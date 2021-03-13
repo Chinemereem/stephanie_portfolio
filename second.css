@@ -1,0 +1,38 @@
+.container{
+    max-width: 1100px;
+    margin:0 auto;
+    overflow: auto; 
+    padding: 0 40px;
+    }
+
+
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 white;
+         margin: 3px; 
+        background-color: gray;
+        /*border-radius: 10px;*/
+        border: 1px solid black;
+      }
+
+      .card:hover{
+        box-shadow: 0 4px 8px 0 red;
+      }
+      
+      
+      .column-div {
+        padding: 0 16px;
+      }
+      
+      .column::after, .row::after, .row2::after{
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .column-div h2{
+        color: white;
+        font-family: monospace;
+      }
+
+      
